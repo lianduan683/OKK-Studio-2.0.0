@@ -1,0 +1,100 @@
+{
+  "package": "pedalboard",
+  "version": "0.9.22",
+  "tag": "v0.9.22",
+  "commit": "c77473af90d05d86767ec6d4a1ab864c3f9c123a",
+  "pypi_sdist_available": false,
+  "artifacts": [
+    {
+      "file": "pedalboard-0.9.22-c77473af.tar.gz",
+      "url": "https://codeload.github.com/spotify/pedalboard/tar.gz/c77473af90d05d86767ec6d4a1ab864c3f9c123a",
+      "repository": "spotify/pedalboard",
+      "commit": "c77473af90d05d86767ec6d4a1ab864c3f9c123a",
+      "extract_into": ".",
+      "bytes": 27048886,
+      "sha256": "81ce586562958e3343395314bf3102eb663de957056239cfdd68f980287e7542",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    },
+    {
+      "file": "JUCE-ddaa0911.tar.gz",
+      "url": "https://codeload.github.com/juce-framework/JUCE/tar.gz/ddaa09110392a4419fecbb6d3022bede89b7e841",
+      "repository": "juce-framework/JUCE",
+      "commit": "ddaa09110392a4419fecbb6d3022bede89b7e841",
+      "extract_into": "JUCE",
+      "bytes": 18658400,
+      "sha256": "c58dd0af18769e8712664ebeb219798352f7c8bfe783127bdf4f553c1c009196",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    },
+    {
+      "file": "rubberband-2be46b0d.tar.gz",
+      "url": "https://codeload.github.com/BreakfastQuay/Rubberband/tar.gz/2be46b0dffb13273a67396c77bc9278736bb03d2",
+      "repository": "BreakfastQuay/Rubberband",
+      "commit": "2be46b0dffb13273a67396c77bc9278736bb03d2",
+      "extract_into": "vendors/rubberband",
+      "bytes": 268734,
+      "sha256": "49d4b563f4a10c0bb7e7b4c30a7c951aca210cf6c3064d4f4921bc77f4c74db5",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    },
+    {
+      "file": "lame-1f5cc948.tar.gz",
+      "url": "https://codeload.github.com/lameproject/lame/tar.gz/1f5cc9487284d5950343aa5d4f70de433468070a",
+      "repository": "lameproject/lame",
+      "commit": "1f5cc9487284d5950343aa5d4f70de433468070a",
+      "extract_into": "vendors/lame",
+      "bytes": 1513892,
+      "sha256": "b6b8a1e8e10a1353966345a5cd5efb10147afd1f26103951aa3dc36f2eb900dd",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    },
+    {
+      "file": "libgsm-98f1708f.tar.gz",
+      "url": "https://codeload.github.com/timothytylee/libgsm/tar.gz/98f1708fb5e06a0dfebd58a3b40d610823db9715",
+      "repository": "timothytylee/libgsm",
+      "commit": "98f1708fb5e06a0dfebd58a3b40d610823db9715",
+      "extract_into": "vendors/libgsm",
+      "bytes": 63604,
+      "sha256": "9e42bf825a88e2a359eba4b11945f753c4d50526dcbb81ae3d04a753c1efe30b",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    },
+    {
+      "file": "pybind11-0c69e1eb.tar.gz",
+      "url": "https://codeload.github.com/pybind/pybind11/tar.gz/0c69e1eb2177fa8f8580632c7b1f97fdb606ce8f",
+      "repository": "pybind/pybind11",
+      "commit": "0c69e1eb2177fa8f8580632c7b1f97fdb606ce8f",
+      "extract_into": "vendors/pybind11",
+      "bytes": 790106,
+      "sha256": "da14a2a427049d1cf1eb687fb07bbb88c938368dd06c2bb5db71eb44b412f1a7",
+      "checksum_basis": "Locally calculated from official GitHub fixed-commit archive; no separately published archive checksum"
+    }
+  ],
+  "license_texts": [
+    {
+      "file": "licenses/GPL-3.0.txt",
+      "requested_url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "origin": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "file": "licenses/GPL-2.0.txt",
+      "requested_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+      "origin": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "bytes": 17984
+    },
+    {
+      "file": "licenses/LGPL-2.1.txt",
+      "requested_url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+      "origin": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "bytes": 26419
+    }
+  ],
+  "notes": [
+    "No downloaded code was run or installed.",
+    "GitHub tag archive alone omits five required submodules; all five fixed revisions are included as separate archives.",
+    "All five submodule Git trees were checked and contain no nested gitlinks.",
+    "Extract the main archive, then place the CONTENTS of the other archive root directories into their extract_into paths.",
+    "Main source includes setup.py, pyproject.toml, .github/workflows/all.yml, overrides, vendor sources and license notices.",
+    "This collection does not establish completeness of the separate FFmpeg/libmpv/Gyroflow shared runtime or third-party artwork licenses."
+  ]
+}

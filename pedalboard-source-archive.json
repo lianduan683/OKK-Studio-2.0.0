@@ -1,0 +1,30 @@
+{
+  "file": "pedalboard-0.9.22-complete-source.zip",
+  "bytes": 53237185,
+  "sha256": "5e8852f9e7906e66a94752c8e35ead617806086c96863dfba0419244f0a361b2",
+  "source_file_counts_by_gitlink": {
+    ".": 3761,
+    "JUCE": 3225,
+    "vendors/rubberband": 157,
+    "vendors/lame": 352,
+    "vendors/libgsm": 60,
+    "vendors/pybind11": 265
+  },
+  "all_five_gitlinks_filled": true,
+  "nested_gitlinks": 0,
+  "zip_crc_check": "passed",
+  "duplicate_casefold_paths": 0,
+  "source_code_executed": false,
+  "required_markers": [
+    "setup.py",
+    "pyproject.toml",
+    ".github/workflows/all.yml",
+    "NOTICE",
+    "LICENSE",
+    "JUCE/modules/juce_core/juce_core.h",
+    "vendors/rubberband/COPYING",
+    "vendors/lame/COPYING",
+    "vendors/libgsm/COPYRIGHT",
+    "vendors/pybind11/include/pybind11/pybind11.h"
+  ]
+}

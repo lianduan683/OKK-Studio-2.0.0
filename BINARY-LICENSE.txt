@@ -1,0 +1,52 @@
+OKK STUDIO 2.0.0 public core distribution
+
+The application's own source remains available under the MIT license in LICENSE.
+All original copyright notices are retained. This does not license the entire
+binary bundle under MIT.
+
+The public core contains Pedalboard 0.9.22. Distribute the combined maintenance
+core under GPLv3-compatible terms, preserving each component's own copyright,
+license and notices. The GPLv3 text is included in
+licenses/supplement/GPL-3.0.txt in the binary package, and
+third_party_licenses/GPL-3.0.txt in the source repository. Pedalboard's own LICENSE
+and NOTICE and the other dependency licenses are retained alongside it.
+
+Corresponding source is provided alongside this core in the same versioned
+Release at:
+https://github.com/lianduan683/OKK-Studio-2.0.0/releases/tag/v2.0.0
+
+Application source asset: OKK-STUDIO-2.0.0-source.zip
+Application build instructions: README.md, build_core.py,
+OKK_STUDIO_2.0.0.spec and source/requirements-build.txt.
+
+Third-party corresponding source asset:
+OKK-STUDIO-2.0.0-third-party-sources.zip
+SHA256: 8dd0f8acbc5527061b72712053495b32b802e44584af1955b86e4bb0178c56b4
+Size: 167350310 bytes
+
+The third-party source bundle contains this Pedalboard source archive:
+pedalboard-0.9.22-complete-source.zip
+SHA256: 5e8852f9e7906e66a94752c8e35ead617806086c96863dfba0419244f0a361b2
+Size: 53237185 bytes
+Upstream Pedalboard commit: c77473af90d05d86767ec6d4a1ab864c3f9c123a
+
+This archive contains the Pedalboard source and the five required submodules at
+their recorded revisions, including build files and license notices. Its source
+provenance is recorded in pedalboard-source-manifest.json and its assembly is
+recorded in pedalboard-source-archive.json. It is supplied unchanged from those
+upstream sources; no claim of byte-for-byte reproduction of an upstream wheel
+is made. Other component source URLs and checksums are recorded in
+core-compliance-manifest.json and native-build-source-manifest.json. Full source
+access and native build references are described in CORE-SOURCE-ACCESS.txt;
+the outer source bundle digest is also in third-party-source-bundle.json.
+
+Redistributors must keep the applicable license notices and provide the
+corresponding source and build materials required by those licenses. A copy of
+the core must not be presented as a fully MIT-licensed binary bundle.
+
+No external FFmpeg, MPV, Gyroflow, ExifTool, third-party VST3 plugin or full
+effects-artwork pack is included in this public core. User-added runtime files
+and assets have their own licenses and are outside this distribution's scope.
+
+The included licenses describe the applicable warranty terms. See their full
+texts and THIRD_PARTY_NOTICES.md for component-specific notices.

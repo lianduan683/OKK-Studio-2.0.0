@@ -1,0 +1,10 @@
+{
+  "file": "OKK-STUDIO-2.0.0-third-party-sources.zip",
+  "bytes": 167350310,
+  "sha256": "8dd0f8acbc5527061b72712053495b32b802e44584af1955b86e4bb0178c56b4",
+  "files": 51,
+  "license_files": 35,
+  "zip_crc_check": "passed",
+  "downloaded_code_executed": false,
+  "scope": "Pedalboard complete source; exact Python sdists; OpenBLAS and build source; licenses; additional fixed native source links"
+}

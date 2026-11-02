@@ -1,0 +1,10 @@
+{
+  "scope": "Public source tree, excluding Git internals and these two generated reports",
+  "checked_at_utc": "2026-11-02T09:49:59.528965+00:00",
+  "files": 497,
+  "text_files": 481,
+  "python_and_spec_files": 421,
+  "approved_ui_assets": 16,
+  "findings": [],
+  "limitations": "Pattern scan and syntax checks do not prove absence of all private data or validate runtime behavior."
+}

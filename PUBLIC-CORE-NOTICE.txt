@@ -1,0 +1,46 @@
+OKK STUDIO 2.0.0 maintenance core - distribution and source notice
+
+This distribution includes Pedalboard 0.9.22, licensed under GNU GPL
+version 3, and its linked third-party components. The covered combined
+executable is distributed under GPLv3. A full copy is provided in
+licenses/supplement/GPL-3.0.txt. You may obtain, modify and redistribute
+the corresponding source under the applicable license terms.
+
+The OKK application source retains its original MIT license and copyright
+notice. Applying GPLv3 to the combined executable does not replace the
+individual licenses of its MIT, BSD, Apache, Python, Tcl/Tk and other
+components. Preserve all component licenses and attribution notices.
+This package must not be described as licensed entirely under MIT.
+
+Matching source materials are available alongside this core in the same
+release: the OKK STUDIO 2.0.0 application source package, the third-party
+source bundle, and its source manifests. The application source package
+contains the modified application and its packaging/build scripts. The
+third-party bundle includes pedalboard-0.9.22-complete-source.zip with
+all five fixed-revision git submodules already populated, plus the exact
+NumPy, Pillow, tkinterdnd2, OpenTimelineIO, OTIO AAF adapter and pyaaf2
+source distributions. Native dependency source and build references are
+listed in the included source-access documentation. These materials must
+remain available with the binary download, without an additional fee.
+
+Pedalboard copyright and linked-component attribution are preserved in
+licenses/supplement/Pedalboard-0.9.22/NOTICE and in its source tree.
+Full NumPy wheel notices include OpenBLAS/LAPACK, GCC runtime terms and
+the GCC Runtime Library Exception 3.1. In this Windows wheel the GCC
+runtime is statically combined into the OpenBLAS DLL; it is not a
+separately distributed libgfortran DLL.
+
+This software uses the FreeType Project (https://freetype.org). Its full
+copyright notices and the other Pillow dependencies'
+notices are included in licenses/supplement/Pillow-13.0.0/LICENSE.
+
+Python and Microsoft runtime-specific terms are preserved in
+licenses/supplement/Python-3.12.10-LICENSE.txt; Microsoft terms apply only
+to the Microsoft distributable runtime components identified there.
+
+This maintenance core excludes the separate FFmpeg, libmpv and Gyroflow
+runtime packages, and excludes the third-party transition/effect artwork
+packages. Those separate packages are not relicensed by this notice.
+
+The software is provided without warranty, subject to the full applicable
+licenses supplied with the distribution.

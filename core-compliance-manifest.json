@@ -1,0 +1,251 @@
+{
+  "purpose": "Supplement for public maintenance core; preserve full original component licenses and notices",
+  "runtime_python": "CPython 3.12.10",
+  "source_archives": [
+    {
+      "file": "numpy-2.5.4.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz",
+      "sha256": "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a",
+      "bytes": 20866315,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    },
+    {
+      "file": "tkinterdnd2-0.7.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/e1/16/a1b4d644cd0dd4b7949228e13e587dc8720362544a5b594a56ef90cedb89/tkinterdnd2-0.7.0.tar.gz",
+      "sha256": "bc5039c28092a702ee70fe15bd9b948cb579571e3b46ba4a092c9929966ca9f3",
+      "bytes": 738026,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    },
+    {
+      "file": "opentimelineio-0.18.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/de/41/73e65b707f3491792d4b34bea75edc2a1cc6ce10848ba199c3de8e3bee58/opentimelineio-0.18.1.tar.gz",
+      "sha256": "a4e5086e2accd4ca9853ab48bf531e0c148eff47889363a6da3a03f662fbf5e8",
+      "bytes": 2921656,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    },
+    {
+      "file": "otio_aaf_adapter-2.0.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d6/dd/2856ff2039d6055223286b82d2b29b7c96ba5d69815d324149c1e79f79dc/otio_aaf_adapter-2.0.0.tar.gz",
+      "sha256": "e7712161e08fcf891ea7aa75e5d86efb96eee5a767253f73bc8165c4236443ca",
+      "bytes": 16018429,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    },
+    {
+      "file": "pyaaf2-1.7.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/77/c5/f3ad278fa038c7e0de5d3a084bae8bc2a403d2223acf9e0b5a7ad4f97768/pyaaf2-1.7.1.tar.gz",
+      "sha256": "e18e5a84bca4ea18c1b9e8384958e2f6d296195c901a448f71f830b22b89c225",
+      "bytes": 116200,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    },
+    {
+      "file": "pillow-13.0.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz",
+      "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510",
+      "bytes": 47058631,
+      "checksum_basis": "Verified against official PyPI version JSON SHA256"
+    }
+  ],
+  "license_files": [
+    {
+      "file": "GPL-2.0.txt",
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "file": "GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "LGPL-2.1.txt",
+      "bytes": 26419,
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "file": "NumPy-2.5.4/LICENSE.txt",
+      "bytes": 45831,
+      "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "bytes": 1039,
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "bytes": 704,
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/src/highway/LICENSE",
+      "bytes": 21155,
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "bytes": 1441,
+      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "bytes": 1542,
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/_core/src/umath/svml/LICENSE",
+      "bytes": 1573,
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/fft/pocketfft/LICENSE.md",
+      "bytes": 1523,
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/linalg/lapack_lite/LICENSE.txt",
+      "bytes": 2314,
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/ma/LICENSE",
+      "bytes": 1616,
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/LICENSE.md",
+      "bytes": 3582,
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/distributions/LICENSE.md",
+      "bytes": 2805,
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/mt19937/LICENSE.md",
+      "bytes": 2986,
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/pcg64/LICENSE.md",
+      "bytes": 1176,
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/philox/LICENSE.md",
+      "bytes": 1540,
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/sfc64/LICENSE.md",
+      "bytes": 1253,
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+    },
+    {
+      "file": "NumPy-2.5.4/numpy/random/src/splitmix64/LICENSE.md",
+      "bytes": 340,
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    },
+    {
+      "file": "OpenSSL-3.0.16-LICENSE.txt",
+      "bytes": 10175,
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "file": "OpenTimelineIO-0.18.1/LICENSE.txt",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "file": "OpenTimelineIO-0.18.1/NOTICE.txt",
+      "bytes": 185,
+      "sha256": "d56656de26111b4170a4b6613d53c3c26f5242c0b0c7260bfe45ca2bb527b1a6"
+    },
+    {
+      "file": "OTIO-AAF-adapter-2.0.0/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "Pedalboard-0.9.22/LICENSE",
+      "bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "file": "Pedalboard-0.9.22/NOTICE",
+      "bytes": 589,
+      "sha256": "922c2088eca7485bdae5dbdaf636c1ba91879abc6285ac5b0d602c24d199ce5b"
+    },
+    {
+      "file": "Pillow-13.0.0/LICENSE",
+      "bytes": 78481,
+      "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+    },
+    {
+      "file": "pyaaf2-1.7.1-LICENSE",
+      "bytes": 1076,
+      "sha256": "23a346d51ba7bef5d9a25fce340670126671c2ee31a0c3d26ad11ec8446600f7"
+    },
+    {
+      "file": "PyInstaller-6.22.3-COPYING.txt",
+      "bytes": 32604,
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+    },
+    {
+      "file": "Python-3.12.10-LICENSE.txt",
+      "bytes": 36874,
+      "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419"
+    },
+    {
+      "file": "Tcl-8.6.15-license.terms",
+      "bytes": 2255,
+      "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+    },
+    {
+      "file": "Tk-8.6.15-license.terms",
+      "bytes": 2307,
+      "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+    },
+    {
+      "file": "TkDND-2.9.5-license.terms",
+      "bytes": 2311,
+      "sha256": "86501f2f0b7dc0ade34deef0cfba930286ec28a12c63949c7417ef53f01aae88"
+    },
+    {
+      "file": "tkinterdnd2-0.7.0/LICENSE",
+      "bytes": 1072,
+      "sha256": "cb0b1019296ff5303a64a1611ed9da5fa738127119f7a4f92fedf3e61f572f05"
+    },
+    {
+      "file": "zlib-1.3.1-LICENSE",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    }
+  ],
+  "additional_license_origins": [
+    {
+      "file": "TkDND-2.9.5-license.terms",
+      "url": "https://raw.githubusercontent.com/petasis/tkdnd/tkdnd-release-test-v2.9.5/license.terms"
+    },
+    {
+      "file": "Tcl-8.6.15-license.terms",
+      "url": "https://raw.githubusercontent.com/tcltk/tcl/core-8-6-15/license.terms"
+    },
+    {
+      "file": "OpenSSL-3.0.16-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.16/LICENSE.txt"
+    },
+    {
+      "file": "zlib-1.3.1-LICENSE",
+      "url": "https://raw.githubusercontent.com/madler/zlib/v1.3.1/LICENSE"
+    },
+    {
+      "file": "PyInstaller-6.22.3-COPYING.txt",
+      "origin": "Unmodified COPYING.txt from installed PyInstaller 6.22.3 distribution",
+      "url": "https://pyinstaller.org/en/stable/license.html"
+    }
+  ],
+  "scope_note": "Python package sdists are supplementary source access materials; these are not a claim of byte-identical binary reproduction or coverage of every optional native dependency. Pedalboard complete source is supplied separately. No FFmpeg, mpv, Gyroflow or effects assets are included.",
+  "source_access_document": "CORE-SOURCE-ACCESS.txt",
+  "native_source_manifest": "native-build-source-manifest.json"
+}

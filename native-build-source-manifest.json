@@ -1,0 +1,23 @@
+[
+  {
+    "file": "openblas-libs-0.3.34.106.0-build-source.tar.gz",
+    "url": "https://codeload.github.com/MacPython/openblas-libs/tar.gz/78fc0eaf6de71d92fd98f74f7e5bfa356a2f83e3",
+    "bytes": 410892,
+    "sha256": "ce4197b8d3c006370d3ee0f4e2d9d4940480b649a62fa209a405d419666cfb6b",
+    "checksum_basis": "Locally calculated official fixed-commit/tag download digest"
+  },
+  {
+    "file": "OpenBLAS-446c436e-source.tar.gz",
+    "url": "https://codeload.github.com/OpenMathLib/OpenBLAS/tar.gz/446c436e10450c348169808f1a6b3fae0925c9f7",
+    "bytes": 25546951,
+    "sha256": "ddecf3872f66f556aed35dabe9e04e663f014b05052b989288f28fc9a883afe0",
+    "checksum_basis": "Locally calculated official fixed-commit/tag download digest"
+  },
+  {
+    "file": "Pillow-13.0.0-dependencies.json",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/13.0.0/.github/dependencies.json",
+    "bytes": 376,
+    "sha256": "63413d6dccf72367fc4c04c2560999e7a40ea14cf226dcc995d238cf3d25533b",
+    "checksum_basis": "Locally calculated official fixed-commit/tag download digest"
+  }
+]
